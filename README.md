@@ -75,10 +75,10 @@ The test video is shown in part 3.
 
 ### 3.2 Wali drive test
 
-**未设置匀变速运动，速度突变卡顿** 
+未设置匀变速运动，速度突变卡顿
 - indoor: https://www.bilibili.com/video/av44314807/
 
-**添加匀变速运动之后，卡顿问题解决**
+添加匀变速运动之后，卡顿问题解决
 - in1：https://www.bilibili.com/video/av44315156/
 - in2：https://www.bilibili.com/video/av44315266/
 - out1：https://www.bilibili.com/video/av44315515/
