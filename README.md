@@ -12,7 +12,7 @@ The hardware device we use:
 - HiSilicon970 (arm)
 - others, little computer host, Intel RealSense R200
 
-We use a kinect v1 to obtain RGB and Depth data now, in the future, we'll replace it with the stereo camera, two HIKVISION wireless cameras. 
+We use a kinect v1 to obtain RGB and Depth data now, in the future, we'll replace it with the stereo camera composed of two HIKVISION wireless cameras. 
 
 There are 2 reasons why we use stereo rather than kinect. 
 - kinect can't obtain intense depth image.
