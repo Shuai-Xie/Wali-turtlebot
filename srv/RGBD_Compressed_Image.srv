@@ -1,0 +1,4 @@
+bool start
+---
+sensor_msgs/CompressedImage rgb
+sensor_msgs/CompressedImage depth
