@@ -74,3 +74,5 @@ The test video is shown in part 3.
 - stereo vision<br>We also test out model on RGBD data obtained by stereo camera. The test results is shown in the video below.
 
 ### 3.2 Wali drive test
+
+<iframe width="1080" height="720" src="https://www.bilibili.com/video/av44314807/" frameborder="0" allowfullscreen></iframe>
