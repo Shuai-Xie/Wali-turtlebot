@@ -40,7 +40,7 @@ BiSeNet-RGBD is trained on [Princeton SUN-RGBD dataset](http://rgbd.cs.princeton
 
 ![SUNRGB_37_label_map.png](poster/SUNRGB_37_label_map.png)
 
-**Test scenes：**There are 10 scenes including 4 indoors and 6 outdoors, which are used to test model performance. The test results is list in part 3.
+**Test scenes**：There are 10 scenes including 4 indoors and 6 outdoors, which are used to test model performance. The test results are list in part 3.
 
 ### 2.2 Wali turtlebot control system
 
@@ -48,7 +48,7 @@ BiSeNet-RGBD is trained on [Princeton SUN-RGBD dataset](http://rgbd.cs.princeton
 
 By using this architecture, we've made some drive test in the real scenario.
 
-The test video is shown in part 3.
+The test videos are shown in part 3.
 
 ## 3. Test results
 
@@ -78,9 +78,9 @@ The test video is shown in part 3.
 
 ![out6.png](poster/out5.png)
 
-- stereo vision<br>We also test out model on RGBD data obtained by stereo camera. The test results is shown in the video below.
+- stereo vision<br>We also test out model on RGBD data obtained by stereo camera.<br>The test results is shown in the video: 
 
-### 3.2 Wali drive test
+### 3.2 Wali drive test video
 
 未设置匀变速运动，速度突变卡顿
 - indoor: https://www.bilibili.com/video/av44314807/
