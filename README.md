@@ -1,7 +1,7 @@
 
 ## Wali_TX2 - 2019.05.11
 
-部署 Wali_ROS_system 到 Jetson TX2，基于 **ROS + tb2 + tensorRT + kinect/stereo** 的实时 RGBD 场景分割。
+部署 Wali_ROS_system 到 Jetson TX2，基于 **ROS + tb2 + tensorRT + kinect/stereo** 实时 RGBD 场景分割。
 - 实时获取 Kinect/RealSense RGBD，自定义 `RGBD_Image.srv` 实现
 - 实时获取 双目相机 Stereo RGBD，自定义 `RGBD_Image.msg` 实现
 - 使用 tensorRT 构建 BiSeNet C++ 模型推理 engine
