@@ -33,7 +33,8 @@ while True:
 - 两中心重合旋转角计算：**根据相机内参和原相机中心深度值计算旋转角**
 
 运行：
-```
+
+```sh
 python kinect/rgbd_image_server.py  # 启动 RGBD server
 python src/talker.py  # 寻路，发布速度指令
 ```
