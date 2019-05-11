@@ -8,7 +8,7 @@
 - 构建 BiSeNet C++ 模型推理节点
 - Demo 演示：https://www.bilibili.com/video/av51854928/
 
-![wali_TX2](https://upload-images.jianshu.io/upload_images/1877813-6e68620a5251668b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![wali_TX2](../assets/wali_TX2.png)
 
 
 工程目录：
