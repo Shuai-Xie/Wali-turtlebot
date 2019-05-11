@@ -1,5 +1,7 @@
+keep updating...
 
-## Wali_TX2 - 2019.05.11
+
+## [Wali_TX2 - 2019.05.11](https://github.com/Shuai-Xie/Wali-turtlebot/tree/master/wali_TX2)
 
 部署 Wali_ROS_system 到 Jetson TX2，基于 **ROS + tb2 + tensorRT + kinect/stereo** 实时 RGBD 场景分割。
 - 实时获取 Kinect/RealSense RGBD，自定义 `RGBD_Image.srv` 实现
@@ -13,7 +15,7 @@
 
 ---
 
-## Wali_depth - 2019.02.20
+## [Wali_depth - 2019.02.20](https://github.com/Shuai-Xie/Wali-turtlebot/tree/master/wali_depth)
 
 只利用相机 **Depth** 信息指导小车移动方向。
 
