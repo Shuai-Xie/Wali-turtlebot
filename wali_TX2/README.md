@@ -11,7 +11,7 @@
 ![wali_TX2](../assets/wali_TX2.png)
 
 
-工程目录：
+工程：
 ```sh
 .
 ├── CMakeLists.txt -> /opt/ros/kinetic/share/catkin/cmake/toplevel.cmake
