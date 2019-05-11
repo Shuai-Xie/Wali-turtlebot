@@ -54,29 +54,20 @@ The test videos are shown in part 3.
 
 ### 3.1 BiSeNet-RGBD
 
-- 4 indoor scenes
+- 2 indoor scenes
 
 ![in1.png](poster/in1.png)
 
-![in2.png](poster/in2.png)
-
 ![in3.png](poster/in3.png)
 
-![in4.png](poster/in4.png)
 
-- 6 outdoor scenes
+- 3 outdoor scenes
 
 ![out1.png](poster/out1.png)
 
-![out2.png](poster/out2.png)
-
-![out3.png](poster/out3.png)
-
-![out4.png](poster/out4.png)
-
 ![out5.png](poster/out5.png)
 
-![out6.png](poster/out5.png)
+![out6.png](poster/out6.png)
 
 - stereo vision<br>We also test out model on RGBD data obtained by stereo camera.<br>The test results is shown in the video: https://www.bilibili.com/video/av44357263/
 
