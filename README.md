@@ -1,5 +1,22 @@
 keep updating...
 
+## [Wali_Detection - 2019.06.20](https://github.com/Shuai-Xie/Wali-turtlebot/tree/master/wali_Detection)
+
+**Detection:**
+- Wali 添加物体检测模块 `detect` 功能包，实现 **YOLOv3 80类**物体检测 (ros + python3.5)
+- Demo: https://www.bilibili.com/video/av56205873/
+
+
+**RGBD Segmentation: Stereo vs Kinect**
+- 参考 [Dilated Residual Networks](https://github.com/fyu/drn) 结构，解决 Deconv 上采样锯齿问题
+- 实时获取双目相机 RGBD 数据场景分割，Demo: https://www.bilibili.com/video/av56205677
+- 训练 RGB 和 RGBD 场景分割模型，共 3 组输入尺寸：240x320, 320x480, 480x640, 总共 6 个模型
+- Stereo vs Kinect 对比实验，图像输入尺寸: 240x320
+  - RGBD Demo: https://www.bilibili.com/video/av56209791/
+  - RGB Demo: https://www.bilibili.com/video/av56210542/
+
+
+---
 
 ## [Wali_TX2 - 2019.05.11](https://github.com/Shuai-Xie/Wali-turtlebot/tree/master/wali_TX2)
 
@@ -9,7 +26,7 @@ keep updating...
 - 使用 tensorRT 构建 BiSeNet C++ 模型推理 engine
 - 构建 RGBD 图像发布节点 (kinect, stereo)
 - 构建 BiSeNet C++ 模型推理节点
-- Demo 演示：https://www.bilibili.com/video/av51854928/
+- 实时获取 kinect RGBD 数据场景分割，Demo: https://www.bilibili.com/video/av51854928/
 
 ![wali_TX2](assets/wali_TX2.png)
 
