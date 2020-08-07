@@ -5,6 +5,7 @@ Wali turtlebot is a self-driving turtlebot, using **Scene Segmentation** on **RG
 ![auto_drive](assets/auto_drive.png)
 
 ## 1. Hardware
+
 - Turtlebot2
 - Jetson TX2
 - HIKVISION wireless camera (stereo)
@@ -26,7 +27,13 @@ BiSeNet-RGBD is trained on [Princeton SUN-RGBD dataset](http://rgbd.cs.princeton
 
 ![SUNRGB_37_label_map.png](assets/SUNRGB_37_label_map.png)
 
-**Test scenes:**
+### BiSeNet-Wali
+
+Compress BiSeNet with Structure Knowledge Distillation for Real-time image segmentation on wali-TX2.
+
+- Code: https://github.com/Shuai-Xie/BiSeNet-wali
+
+### Test scenes
 
 - indoor
 
@@ -37,3 +44,17 @@ BiSeNet-RGBD is trained on [Princeton SUN-RGBD dataset](http://rgbd.cs.princeton
 ![outdoor](assets/outdoor.png)
 
 - stereo: https://www.bilibili.com/video/av44357263/
+
+
+
+### Road Test
+
+未设置匀变速运动，速度突变卡顿
+
+- indoor: https://www.bilibili.com/video/av44314807/
+
+添加匀变速运动之后，卡顿问题解决
+- in1：https://www.bilibili.com/video/av44315156/
+- in2：https://www.bilibili.com/video/av44315266/
+- out1：https://www.bilibili.com/video/av44315515/
+- out2：https://www.bilibili.com/video/av44315582/
